@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+	<Resource
+		name="jdbc/mariadb1"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="org.mariadb.jdbc.Driver"
+		url="jdbc:mysql://58.122.9.143:3307/da"
+		username="root"
+		password="Dlwovlf0a12!" />
+	<Resource
+		name="jdbc/mariadb2"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="org.mariadb.jdbc.Driver"
+		url="jdbc:mysql://58.122.9.143:3307/da"
+		username="da"
+		password="Dlwovlf0a12!" />
+</Context>
